@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  <link rel="stylesheet" href="CSS/index.css" type="text/css">
+  <link rel="stylesheet" href="CSS/syncComplete.css" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  </head>
+  <body>
+    <main class="syncComplete">
+      <div class="syncComplete__wraper">
+      <i class="syncComplete--size fa fa-check fa-5x" aria-hidden="true"></i>
+      </div>
+      <div>
+      <h1 class="syncComplete__title">Synchronizacja się powiodła :)</h1>
+    </div>
+    </main>
+  </body>
+  <script>
+    document.addEventListener('DOMContentLoaded',delay)
+
+    function delay () {
+      window.setTimeout(changePage,3000)
+    }
+
+    function changePage() {
+      window.location.assign("savePosition.html")
+    }
+  </script>
+</html>

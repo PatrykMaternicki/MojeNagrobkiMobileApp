@@ -1,0 +1,106 @@
+.clientPage {
+  width: 90%;
+  margin: auto;
+  height: 80vh;
+}
+
+.clientPage__title {
+  float:right;
+  text-decoration: underline;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+}
+
+.clientPage__header {
+  width:100%;
+  display: inline-block;
+  margin-bottom:50px;
+}
+
+.clientPage__wraper {
+  width: 100%;
+}
+
+.clientPage__wraper--flex {
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+}
+
+.clientPage__circle--big {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: #0397b8;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 200px;
+  margin:auto;
+  color: #fff;
+  font-size:1.2rem;
+}
+
+.clientPage__circle--litle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background: #091d35;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  font-size: 0.7rem;
+}
+
+.clientPage__cricle--medium {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  background: #e61638;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 130px;
+  color: #fff;
+  font-size:1rem;
+}
+
+.clientPage__footer {
+  height: 17vh;
+  border: 8px dotted #fff;
+  width: 80%;
+  margin: auto;
+  -webkit-border-top-left-radius: 40px;
+-webkit-border-top-right-radius: 40px;
+-moz-border-radius-topleft: 40px;
+-moz-border-radius-topright: 40px;
+border-top-left-radius: 40px;
+border-top-right-radius: 40px;
+  position:fixed;
+  bottom: 0;
+  right:8%;
+  border-bottom: none;
+}
+.clientPage__client {
+  margin-top:20px;
+  color: white;
+  text-align:center;
+}
+
+.clientPage__button {
+  float: right;
+  border: none;
+  margin-top:20px;
+  text-transform: uppercase;
+  position: fixed;
+  bottom: 0;
+  left: 35%;
+}
+
+.clientPage__button a{
+  text-decoration: none;
+  float: right;
+  background: #e61638;
+  color: #fff;
+  border: none;
+  padding:20px 20px;
+}

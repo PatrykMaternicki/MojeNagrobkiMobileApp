@@ -1,0 +1,51 @@
+.loginPage {
+  width:90%;
+  height:90vh;
+  display: flex;
+  align-items: center;
+  margin:auto;
+}
+
+.loginPage__title {
+  padding-bottom: 20px;
+  color: #fff;
+  font-family: Arial;
+  background: #e61638;
+  padding:10px 5px;
+  width:90%;
+  margin-bottom:50px;
+}
+
+label {
+  padding:10 0px;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+.loginPage__input {
+  width: 100%;
+  margin: 10px 0px;
+  background: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  text-transform: uppercase;
+  color : white;
+}
+
+.loginPage__button {
+  float: right;
+  border: none;
+  margin-top:50px;
+  text-transform: uppercase;
+}
+
+.loginPage__button a{
+  text-decoration: none;
+  float: right;
+  background: #e61638;
+  color: #fff;
+  border: none;
+  padding:20px 20px;
+}

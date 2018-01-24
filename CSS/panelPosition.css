@@ -1,0 +1,17 @@
+.savePositionPage__panel {
+  width: 80%;
+  margin: auto;
+  display:flex;
+  align-items: center;
+  height:80vh;
+  justify-content: center;
+}
+
+.savePositionPage__item {
+  padding: 100px 300px;
+  background: #e61638;
+  color: #fff;
+  border:1px solid #fff;
+  font-size: 3rem;
+  text-align: center;
+}
